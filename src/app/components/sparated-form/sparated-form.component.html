@@ -1,0 +1,7 @@
+<section>
+  <form [formGroup]="parentForm" (ngSubmit)="onSubmit()">
+    <app-info-form [parentForm]="parentForm"></app-info-form>
+    <app-delivery-form [parentForm]="parentForm"></app-delivery-form>
+    <button type="submit">Submit</button>
+  </form>
+</section>
